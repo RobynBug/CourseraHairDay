@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+body {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3.3rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    color: rgb(197, 108, 56);
+    
+}
+
+h2 {
+    font-size: 2.4rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    
+}
+.logo {
+    height: 8rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+   
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    
+    
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 2rem;
+    
+    
+}
+
+p {
+    font-size: 2rem;
+}
+
+.rowTwo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    border: solid rgb(32, 133, 99);
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+    
+}
+
+article img {
+    height: 30vh;
+    width: 25vw;
+}
+
+article img:hover {
+    border: solid palevioletred;
+}
+
+footer {
+    display: flex;
+    padding: 3rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    height: 3rem;
+}
+
+.sale {
+    width: 90vw;
+    height: 50vh;
+}
